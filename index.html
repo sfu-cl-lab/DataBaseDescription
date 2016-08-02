@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Description of Databases</title>
+    <meta name="description" content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."/>
+
+    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+	<script src="js/vendor/jquery.min.js"></script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+	<style>
+	.section-title {
+		margin: 10px 0;
+		font: 900 32px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+        .fixed{
+            position: fixed;
+			top:30px;
+        }
+		.navrow{
+		margin-bottom:10px;
+		}
+    </style>
+  </head>
+  <body>
+  
+     <div class="container" id="#top">
+      <div class="demo-headline" style="text-align:center;margin:50px;">
+        <h1>
+          Description of Databases
+        </h1>
+      </div> <!-- /demo-headline -->
+	  <div class="col-xs-3 nav" id="nav">
+	  <div class="row navrow" >
+          <a href="#NBA" class="btn btn-block btn-sm btn-primary">NBA</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#PremierLeague" class="btn btn-block btn-sm btn-primary">PremierLeague</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#Yelp" class="btn btn-block btn-sm btn-primary">Yelp</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#YelpDataset3" class="btn btn-block btn-sm btn-primary">YelpDataset3</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#YelpDataset3_disc_clean" class="btn btn-block btn-sm btn-primary">YelpDataset3_disc_clean</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#IMDB_MovieLens" class="btn btn-block btn-sm btn-primary">IMDB_MovieLens</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#Mondial_geo" class="btn btn-block btn-sm btn-primary">Mondial</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#NHL" class="btn btn-block btn-sm btn-primary">NHL</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#Financial_std" class="btn btn-block btn-sm btn-primary">Financial</a>
+	  </div>
+	  <div class="row navrow">
+          <a href="#UW_std" class="btn btn-block btn-sm btn-primary">UW</a>
+	  </div>
+	  <div class="row navrow" style="margin-top:20px;">
+			<a href="singleFiles/" class="btn btn-block btn-sm btn-inverse">Single File Version</a>         
+	  </div>
+	  <div class="row navrow">
+          <a href="#top" class="btn btn-block btn-sm btn-warning">Back to Top</a>
+	  </div>
+      </div>
+        <div class="col-xs-3" id="placeholder" style="display: none;"></div>
+        <div class="col-xs-9" id="contentx">
+		<h2 class="section-title" id="NBA" style="margin-top:0px;">NBA</h2>
+		<p>A database with information about basketball matches from the National Basketball Association. Lists Players, Teams, and matches with action counts for each player.</p>
+		<ul>
+			<li>Aggregating Predictions vs. Aggregating Features for Relational Classification. Oliver Schulte and Kurt Routley (2014). IEEE Symposium Series on Computational Intelligence, CI and Data Management Track (IEEE SSCI 2014). <a href="bibtex/NBA.bib">BibTeX</a></li>
+			<li><a href="http://nba.com">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/NBA.mwb" >mwb file</a></br><img src="img/NBA EER.png" /></li>
+			<li><a href="singleFiles/NBA.xlsx" >Single File version</a></li>
+		</ul>
+		<h2 class="section-title" id="PremierLeague">PremierLeague</h2>
+		<p>A database with information about football matches from the UK Premier League, the x season. Lists Players, Teams, and matches with action counts for each player.</p>
+		<ul>
+			<li>Identifying Important Nodes in Relational Data Fatemeh Riahi, Oliver Schulte, Qing Li (2013). AAAI Late Breaking Paper Track.<a href="bibtex/PremierLeague.bib">BibTeX</a></li>
+			<li><a href="http://mcfc.co.uk/Home/MCFCAnalytics">Original Data Source</a> (Removed by ManchesterCity)</li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/PremierLeague.mwb" >mwb file</a></br><img src="img/PremierLeague EER.png"/></li>
+			<li><a href="singleFiles/PremierLeague.xls.tar.gz">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="Yelp">PremierLeague<small>(version 1)</small></h2>
+		<p>Yelp is a multinational corporation headquartered in San Francisco, California. It develops, hosts and markets Yelp.com and the Yelp mobile app, which publish crowd-sourced reviews about local businesses. The company also trains small businesses to respond to reviews responsibly, hosts social events for reviewers, and provides basic data about businesses, such as hours of operation.</p>
+		<ul>
+			<li>Yelp Dataset Challenge<a href="bibtex/Yelp.bib">BibTeX</a></li>
+			<li><a href="http://www.yelp.ca/dataset_challenge">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/Yelp.mwb" >mwb file</a></br><img src="img/Yelp EER.png"/></li>
+			<li><a href="singleFiles/Yelp.xlsx">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="YelpDataset3">YelpDataset3<small>(version 2)</small></h2>
+		<p>Yelp is a multinational corporation headquartered in San Francisco, California. It develops, hosts and markets Yelp.com and the Yelp mobile app, which publish crowd-sourced reviews about local businesses. The company also trains small businesses to respond to reviews responsibly, hosts social events for reviewers, and provides basic data about businesses, such as hours of operation.</p>
+		<ul>
+			<li>Yelp Dataset Challenge<a href="bibtex/YelpDataset3.bib">BibTeX</a></li>
+			<li><a href="http://www.yelp.ca/dataset_challenge">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/YelpDataset3.mwb" >mwb file</a></br><img src="img/YelpDataset3 EER.png"/></li>
+			<li><a href="singleFiles/YelpDataset3.xlsx">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="YelpDataset3_disc_clean">YelpDataset3_disc_clean</h2>
+		<p>Yelp is a multinational corporation headquartered in San Francisco, California. It develops, hosts and markets Yelp.com and the Yelp mobile app, which publish crowd-sourced reviews about local businesses. The company also trains small businesses to respond to reviews responsibly, hosts social events for reviewers, and provides basic data about businesses, such as hours of operation.</p>
+		<ul>
+			<li>citation<a href="bibtex/YelpDataset3_disc_clean.bib">BibTeX</a></li>
+			<li><a href="http://www.yelp.ca/dataset_challenge">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/YelpDataset3_disc_clean.mwb" >mwb file</a></br><img src="img/YelpDataset3_disc_clean EER.png"/></li>
+			<li><a href="singleFiles/">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="IMDB_MovieLens">IMDB_MovieLens</h2>
+		<p>desc</p>
+		<ul>
+			<li>citation<a href="bibtex/IMDB_MovieLens.bib">BibTeX</a></li>
+			<li><a href="">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/IMDB_MovieLens.mwb" >mwb file</a></br><img src="img/IMDB_MovieLens EER.png"/></li>
+			<li><a href="singleFiles/IMDB_MovieLens.xlsx">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="Mondial_geo">Mondial</h2>
+		<p>Mondial is a collection of geographical web data. Its sources contains: CIA World Factbook, a predecessor of Global Statistics which has been collected by Johan van der Heijden, some additional textual sources for coordinates, the International Atlas by Kümmerly and Frey, Rand McNally, and Westermann, and some geographical data of the Karlsruhe TERRA database.</p>
+		<ul>
+			<li>citation<a href="bibtex/Mondial_geo.bib">BibTeX</a></li>
+			<li><a href="">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/Mondial_geo.mwb" >mwb file</a></br><img src="img/Mondial_geo EER.png"/></li>
+			<li><a href="singleFiles/Mondial_geo.xlsx">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="NHL">NHL</h2>
+		<p>desc</p>
+		<ul>
+			<li>citation<a href="bibtex/NHL.bib">BibTeX</a></li>
+			<li><a href="">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/NHL.mwb" >mwb file</a></br><img src="img/NHL EER.png"/></li>
+			<li><a href="singleFiles/NHL.xlsx">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="Financial_std">Financial</h2>
+		<p>description</p>
+		<ul>
+			<li>citation<a href="bibtex/Financial_std.bib">BibTeX</a></li>
+			<li><a href="">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/Financial_std.mwb" >mwb file</a></br><img src="img/Financial_std EER.png"/></li>
+			<li><a href="singleFiles/Financial_std.xlsx">Single file version</a></li>
+		</ul>
+		<h2 class="section-title" id="UW_std">UW</h2>
+		<p>description</p>
+		<ul>
+			<li>citation<a href="bibtex/UW_std.bib">BibTeX</a></li>
+			<li><a href="">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/UW_std.mwb" >mwb file</a></br><img src="img/UW_std EER.png"/></li>
+			<li><a href="singleFiles/UW_std.xlsx">Single file version</a></li>
+		</ul>
+	<!--<li id="title">
+		<h2>title</h2>
+		<p>description</p>
+		<ul>
+			<li>citation<a href="bibtex/.bib">BibTeX</a></li>
+			<li><a href="">Original Data Source</a></li>
+			<li>Enhanced Entity Relationship (EER) Diagram <a href="mwb/.mwb" >mwb file</a></br><img src="img/ EER.png"/></li>
+			<li><a href="singleFiles/">Single file version</a></li>
+		</ul>
+	</li>-->
+</ul>
+	  </div>
+      </div> 
+	  <footer><div class="container" style="text-align:center;color:black;padding:10px;">Powered by Flat UI</div></footer>
+	 </body>
+	  <script type="text/javascript">
+function getElementViewTop(element){
+　　var actualTop = element.offsetTop;
+　　var current = element.offsetParent;
+　　while (current !== null){
+        actualTop += current.offsetTop;
+        current = current.offsetParent;
+　　}
+    var elementScrollTop=0;
+　　if (document.compatMode == "BackCompat"){
+        elementScrollTop=document.body.scrollTop;
+　　} else {
+        elementScrollTop=document.documentElement.scrollTop; 
+　　}
+    return actualTop;
+　//　return actualTop-elementScrollTop;
+}
+function getScroll()
+{
+    var top, left, width, height;
+ 
+    if (document.documentElement && document.documentElement.scrollTop) {
+        top = document.documentElement.scrollTop;
+        left = document.documentElement.scrollLeft;
+        width = document.documentElement.scrollWidth;
+        height = document.documentElement.scrollHeight;
+    } else if (document.body) {
+        top = document.body.scrollTop;
+        left = document.body.scrollLeft;
+        width = document.body.scrollWidth;
+        height = document.body.scrollHeight;
+    }
+    return { 'top': top, 'left': left, 'width': width, 'height': height };
+}
+var nav = document.getElementById('nav');   
+var posTop = getElementViewTop(nav);
+$("img").attr("style","max-width:"+$("#contentx").width()+"px");
+window.addEventListener('scroll',function(event){
+    var scrollTop = getScroll().top;
+    //var output = document.getElementById('output');
+    //output.innerHTML = posTop +' '+scrollTop+' '+(posTop-scrollTop);
+    if(posTop>=30 && posTop-scrollTop <= 30) 
+        {nav.className = 'col-xs-3 fixed';
+		 $("#placeholder").show();
+		 $("#nav").width($("#placeholder").width());
+		}
+    else {nav.className = 'col-xs-3';$("#placeholder").hide();}
+},false);
+</script>
+</html>

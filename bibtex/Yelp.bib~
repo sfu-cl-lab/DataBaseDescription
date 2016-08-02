@@ -1,0 +1,8 @@
+@inproceedings{schulte2014aggregating,
+  title={Aggregating predictions vs. aggregating features for relational classification},
+  author={Schulte, Oliver and Routley, Kurt},
+  booktitle={Computational Intelligence and Data Mining (CIDM), 2014 IEEE Symposium on},
+  pages={121--128},
+  year={2014},
+  organization={IEEE}
+}
